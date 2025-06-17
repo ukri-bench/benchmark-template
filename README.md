@@ -19,7 +19,7 @@ Alpha
 
 - ADD: Link to repo/website for main software/framework/library for the benchmark
 - (Optional) ADD: Link to source code for benchmark case (required when software is a framework
-  or library and so does not have an executable that can be used for benchmarking
+  or library and so does not have an executable that can be used for benchmarking)
 
 ### Architectures
 
@@ -43,7 +43,7 @@ Alpha
 - [ ] Unstructured grids
 - [ ] Monte Carlo
 
-## Building
+## Building the benchmark
 
 The benchmark can be built using Spack or manually. If you are using the 
 ReFrame method to run the benchmark described below, it will automatically
@@ -72,7 +72,7 @@ in a separate repository: [https://github.com/ukri-bench/system-configs]
   - Links to multiple sub-pages of instructions can be added if they are
     too long to fit on this page
 
-## Running
+## Running the benchmark
 
 The benchmark can be run using ReFrame or manually. 
 
@@ -80,7 +80,7 @@ If you use ReFrame, then ReFrame will build the software, run the benchmark,
 test for correctness, extract the performance/figure of merit (FoM) for you and
 report them.
 
-### Using ReFrame
+### Running using ReFrame
 
 The ReFrame test configuration is available in the `reframe/` subdirectory.
 
